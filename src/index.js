@@ -1,13 +1,5 @@
-import React, { Component } from "react";
-import ArrowButtonSvg from "./components/arrow-button";
+import _TriangleArrow from "./components/generic/triangleArrow/TriangleArrow";
+import _Mudgun from "./components/industry/mudgun/mudgun";
 
-export default class extends Component {
-  render() {
-    return (
-      <div>
-        <h2>Welcome to React components</h2>
-        <ArrowButtonSvg />
-      </div>
-    );
-  }
-}
+export const TriangleArrow = _TriangleArrow;
+export const Mudgun = _Mudgun;
