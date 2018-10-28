@@ -7,53 +7,43 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-var ArrowButtonSvg = function (_Component) {
-  _inherits(ArrowButtonSvg, _Component);
+var TiltRunner = function (_Component) {
+  _inherits(TiltRunner, _Component);
 
-  function ArrowButtonSvg() {
-    _classCallCheck(this, ArrowButtonSvg);
+  function TiltRunner() {
+    _classCallCheck(this, TiltRunner);
 
     return _possibleConstructorReturn(this, _Component.apply(this, arguments));
   }
 
-  ArrowButtonSvg.prototype.render = function render() {
+  TiltRunner.prototype.render = function render() {
     return React.createElement(
       "svg",
       { width: this.props.size, version: "1.1", viewBox: "0 0 500 500" },
-      React.createElement("circle", {
-        id: "path4138",
-        strokeLinejoin: "round",
-        opacity: this.props.opacity,
-        strokeWidth: "40",
-        strokeLinecap: "round",
-        stroke: this.props.color,
-        cy: "250",
-        cx: "250",
-        r: "211",
-        fill: "none"
-      }),
       React.createElement("path", {
-        id: "path4148",
+        id: this.props.id,
         fill: this.props.color,
-        d: "m110 280l140-100 140 100h-280"
+        opacity: this.props.opacity,
+        d: "m188 5.85l-1.1 1.541-84.2 120.3-0.6 0.9v1.1 60.2h-32.51v120.2h32.51v60.2 1.1l0.6 0.9 84.2 120.3 1.1 1.5h1.9 33.6 53 33.6 1.9l1.1-1.5 84.2-120.3 0.6-0.9v-1.1-60.2h32.5v-120.2h-32.5v-60.2-1.1l-0.6-0.9-84.2-120.3c0-0.009-1.1-1.55-1.1-1.55h-1.9-21.4-65.2-33.6-1.9m3.7 7.22h28.9l-46.1 115.3s-0.3 0.7-0.3 0.7v0.6 240.6 0.6s0.3 0.7 0.3 0.7l46.1 115.3h-28.9l-82.4-117.8v-238.2l82.4-117.8v-0.03m36.7 0h55l35.2 117.2v239.3l-47 117.3h-43.2l-47-117.3v-239.2l47-117.3v-0.03m62.5 0h17.4l82.4 117.8v238.2l-82.4 117.8h-28.9l46.1-115.3s0.3-0.7 0.3-0.7v-0.6-240.6-0.5l-0.2-0.5-34.7-115.6v-0.03"
       })
     );
   };
 
-  return ArrowButtonSvg;
+  return TiltRunner;
 }(Component);
 
-ArrowButtonSvg.defaultProps = {
+TiltRunner.defaultProps = {
+  id: "TiltRunner",
   color: "#666666",
   size: 50,
   opacity: 1
 };
 
-ArrowButtonSvg.propTypes = process.env.NODE_ENV !== "production" ? {
-  id: PropTypes.string,
+TiltRunner.propTypes = process.env.NODE_ENV !== "production" ? {
+  id: PropTypes.string.isRequired,
   color: PropTypes.string.isRequired,
   size: PropTypes.number.isRequired,
   opacity: PropTypes.number.isRequired
 } : {};
 
-export default ArrowButtonSvg;
+export default TiltRunner;

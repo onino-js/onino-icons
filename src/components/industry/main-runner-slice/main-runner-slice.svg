@@ -1,0 +1,6 @@
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="500" viewBox="0 0 500.00001 500.00001" width="500" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <path id="path4136" d="m6.062 54.85v146.4l121.9 244h122 122l121.9-244v-146.4c0 0.05-12.2 0.05-12.2 0.05v146.4l-109.7 219.6-12.2 12.2h-219.6l-12.2-12.2-109.7-219.6c-0.04 0-0.04-146.4-0.04-146.4 0 0.05-12.2 0.05-12.2 0.05" fill-rule="evenodd" stroke="#000" stroke-width="3.683"/>
+ <path id="fond" d="m164.6 347.6v85.38h85.38 85.38v-85.38h-85.38-85.38" stroke="#000" stroke-width="2.605" fill="none"/>
+ <path id="usure" d="m18.26 54.85v60.98h73.18v85.38l73.18 146.4h85.38 85.38l73.18-146.4v-85.38h73.18v-60.98h-158.6v85.38c0 97.58-73.18 97.58-73.18 97.58s-75.73-0.0333-73.18-97.58v-85.38h-158.6" stroke="#000" stroke-width="10" fill="none"/>
+ <path id="secu" d="m335.4 347.6l73.18-146.4v-85.38h73.18v85.38l-109.8 219.5-12.2 12.2h-24.39v-85.38m-170.8 0l-73.18-146.4v-85.38h-73.18v85.38l109.8 219.5 12.2 12.2h24.39v-85.38" stroke="#000" stroke-width="10" fill="none"/>
+</svg>
